@@ -1,0 +1,6 @@
+{
+    "data_path":"../ReCMLLM_outputs/HuggingFaceFW/fineweb/sample/350BT",
+    "save_path":"../ReCMLLM_outputs/BucketSortText",
+    "data_save_path":"../ReCMLLM_outputs/data",
+    "model_id":"../../models/TinyLlama/TinyLlama_v1.1"
+}
