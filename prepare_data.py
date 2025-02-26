@@ -440,8 +440,17 @@ def prepare_data():
     # num = 1000000//length # for debug
     num = (1000*1000*1000)//length  # total 1B token
 
-    last_text = None
+    # last_text = None
     for data_path in tqdm(unfinished_texts):
+
+        text_len = int(data_path.split('/')[-1].split('_')[0])
+        num_of_text = length//text_len  # want text with expected length 
+        # if num_of_text > 8: # we want longer text.
+        #     continue
+        text_cnt = 0
+        last_text = None
+
+
         print(f"processing {data_path}...")
         texts = load_json(data_path)
 
@@ -451,11 +460,19 @@ def prepare_data():
             # preing += 1
             if last_text is None:
                 last_text = text
+                text_cnt += 1
+                continue
+
+
+            if text_cnt<num_of_text:
+                last_text += "<SEP>" + text
+                text_cnt += 1
                 continue
 
             # other_text hasn't been seen or trained.
-            data.append(to_tensor(last_text, tokenizer, length, other_text=text))
-            last_text = text
+            data.append(to_tensor(last_text, tokenizer, length, other_text=text)) # get num_of_text+1 text; last_text has num_of_text, other_text has one.
+            last_text = None
+            text_cnt = 0
 
             # save
             if len(data)==num:

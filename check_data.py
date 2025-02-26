@@ -22,7 +22,7 @@ tokenizer = AutoTokenizer.from_pretrained(cfg['model_id'])
 
 
 # data = torch.load(cfg["data_save_path"]+"/1020.pt")
-data = torch.load(cfg["data_save_path"]+"/3060.pt")
+data = torch.load(cfg["data_save_path"]+"/10200.pt")
 
 cnt = 1
 for example in data:
@@ -77,3 +77,5 @@ for example in data:
     if cnt>100:
         break
     cnt+=1
+
+# python check_data.py

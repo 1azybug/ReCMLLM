@@ -1,0 +1,16 @@
+{"time":"2024-11-25T11:32:04.785048067+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T11:32:04.785070629+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20241125_113204-myubrat9/logs/debug-core.log"}
+{"time":"2024-11-25T11:32:04.893484191+08:00","level":"INFO","msg":"created new stream","id":"myubrat9"}
+{"time":"2024-11-25T11:32:04.893519808+08:00","level":"INFO","msg":"stream: started","id":"myubrat9"}
+{"time":"2024-11-25T11:32:04.893579009+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"myubrat9"}
+{"time":"2024-11-25T11:32:04.89360062+08:00","level":"INFO","msg":"handler: started","stream_id":"myubrat9"}
+{"time":"2024-11-25T11:32:04.893669479+08:00","level":"INFO","msg":"sender: started","stream_id":"myubrat9"}
+{"time":"2024-11-25T11:32:05.386276308+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T11:32:06.740730951+08:00","level":"INFO","msg":"stream: closing","id":"myubrat9"}
+{"time":"2024-11-25T11:32:06.740830858+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T11:32:06.741761155+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T11:32:10.061248882+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T11:32:10.803194517+08:00","level":"INFO","msg":"handler: closed","stream_id":"myubrat9"}
+{"time":"2024-11-25T11:32:10.803254109+08:00","level":"INFO","msg":"sender: closed","stream_id":"myubrat9"}
+{"time":"2024-11-25T11:32:10.80323851+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"myubrat9"}
+{"time":"2024-11-25T11:32:10.803342595+08:00","level":"INFO","msg":"stream: closed","id":"myubrat9"}

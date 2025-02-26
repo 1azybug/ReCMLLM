@@ -1,0 +1,16 @@
+{"time":"2024-11-25T11:19:33.166818896+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T11:19:33.166837782+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20241125_111933-dzl9ewz4/logs/debug-core.log"}
+{"time":"2024-11-25T11:19:33.2823801+08:00","level":"INFO","msg":"created new stream","id":"dzl9ewz4"}
+{"time":"2024-11-25T11:19:33.282426908+08:00","level":"INFO","msg":"stream: started","id":"dzl9ewz4"}
+{"time":"2024-11-25T11:19:33.282490868+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"dzl9ewz4"}
+{"time":"2024-11-25T11:19:33.282541984+08:00","level":"INFO","msg":"sender: started","stream_id":"dzl9ewz4"}
+{"time":"2024-11-25T11:19:33.282541964+08:00","level":"INFO","msg":"handler: started","stream_id":"dzl9ewz4"}
+{"time":"2024-11-25T11:19:33.789514727+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T11:19:34.073481964+08:00","level":"INFO","msg":"stream: closing","id":"dzl9ewz4"}
+{"time":"2024-11-25T11:19:34.073579216+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T11:19:34.074195704+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T11:19:35.923334172+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T11:19:36.366618593+08:00","level":"INFO","msg":"handler: closed","stream_id":"dzl9ewz4"}
+{"time":"2024-11-25T11:19:36.36672859+08:00","level":"INFO","msg":"sender: closed","stream_id":"dzl9ewz4"}
+{"time":"2024-11-25T11:19:36.366730634+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dzl9ewz4"}
+{"time":"2024-11-25T11:19:36.366902286+08:00","level":"INFO","msg":"stream: closed","id":"dzl9ewz4"}

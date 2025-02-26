@@ -1,0 +1,16 @@
+{"time":"2024-11-25T11:41:46.201374316+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T11:41:46.201387701+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20241125_114146-pabf7p02/logs/debug-core.log"}
+{"time":"2024-11-25T11:41:46.314483803+08:00","level":"INFO","msg":"created new stream","id":"pabf7p02"}
+{"time":"2024-11-25T11:41:46.314536742+08:00","level":"INFO","msg":"stream: started","id":"pabf7p02"}
+{"time":"2024-11-25T11:41:46.314600712+08:00","level":"INFO","msg":"sender: started","stream_id":"pabf7p02"}
+{"time":"2024-11-25T11:41:46.314611192+08:00","level":"INFO","msg":"handler: started","stream_id":"pabf7p02"}
+{"time":"2024-11-25T11:41:46.314600652+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"pabf7p02"}
+{"time":"2024-11-25T11:41:46.834699461+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T11:41:47.192715412+08:00","level":"INFO","msg":"stream: closing","id":"pabf7p02"}
+{"time":"2024-11-25T11:41:47.192777568+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T11:41:47.193701924+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T11:41:48.791729759+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T11:41:49.604206745+08:00","level":"INFO","msg":"handler: closed","stream_id":"pabf7p02"}
+{"time":"2024-11-25T11:41:49.604260335+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pabf7p02"}
+{"time":"2024-11-25T11:41:49.604280944+08:00","level":"INFO","msg":"sender: closed","stream_id":"pabf7p02"}
+{"time":"2024-11-25T11:41:49.604355194+08:00","level":"INFO","msg":"stream: closed","id":"pabf7p02"}

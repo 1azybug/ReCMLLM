@@ -1,0 +1,16 @@
+{"time":"2025-01-03T18:35:15.664824158+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-03T18:35:15.664858844+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20250103_183515-t9t2vrh4/logs/debug-core.log"}
+{"time":"2025-01-03T18:35:15.776610163+08:00","level":"INFO","msg":"created new stream","id":"t9t2vrh4"}
+{"time":"2025-01-03T18:35:15.776679633+08:00","level":"INFO","msg":"stream: started","id":"t9t2vrh4"}
+{"time":"2025-01-03T18:35:15.776729106+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"t9t2vrh4"}
+{"time":"2025-01-03T18:35:15.776737552+08:00","level":"INFO","msg":"sender: started","stream_id":"t9t2vrh4"}
+{"time":"2025-01-03T18:35:15.776792495+08:00","level":"INFO","msg":"handler: started","stream_id":"t9t2vrh4"}
+{"time":"2025-01-03T18:35:16.28106473+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-03T18:35:25.367169574+08:00","level":"INFO","msg":"stream: closing","id":"t9t2vrh4"}
+{"time":"2025-01-03T18:35:25.367232762+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-03T18:35:25.36822702+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-03T18:35:26.71542947+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-03T18:35:27.489039039+08:00","level":"INFO","msg":"handler: closed","stream_id":"t9t2vrh4"}
+{"time":"2025-01-03T18:35:27.489134979+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"t9t2vrh4"}
+{"time":"2025-01-03T18:35:27.489166588+08:00","level":"INFO","msg":"sender: closed","stream_id":"t9t2vrh4"}
+{"time":"2025-01-03T18:35:27.489230979+08:00","level":"INFO","msg":"stream: closed","id":"t9t2vrh4"}

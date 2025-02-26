@@ -1,0 +1,16 @@
+{"time":"2024-11-25T11:35:31.910215651+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T11:35:31.910251137+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20241125_113531-kqvp90fp/logs/debug-core.log"}
+{"time":"2024-11-25T11:35:32.027960585+08:00","level":"INFO","msg":"created new stream","id":"kqvp90fp"}
+{"time":"2024-11-25T11:35:32.028000019+08:00","level":"INFO","msg":"stream: started","id":"kqvp90fp"}
+{"time":"2024-11-25T11:35:32.028048009+08:00","level":"INFO","msg":"handler: started","stream_id":"kqvp90fp"}
+{"time":"2024-11-25T11:35:32.028047598+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"kqvp90fp"}
+{"time":"2024-11-25T11:35:32.028110937+08:00","level":"INFO","msg":"sender: started","stream_id":"kqvp90fp"}
+{"time":"2024-11-25T11:35:32.58815091+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T11:35:33.976789111+08:00","level":"INFO","msg":"stream: closing","id":"kqvp90fp"}
+{"time":"2024-11-25T11:35:33.976843834+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T11:35:33.977759683+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T11:35:35.249160111+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T11:35:36.161033846+08:00","level":"INFO","msg":"handler: closed","stream_id":"kqvp90fp"}
+{"time":"2024-11-25T11:35:36.161105541+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kqvp90fp"}
+{"time":"2024-11-25T11:35:36.161112253+08:00","level":"INFO","msg":"sender: closed","stream_id":"kqvp90fp"}
+{"time":"2024-11-25T11:35:36.161223011+08:00","level":"INFO","msg":"stream: closed","id":"kqvp90fp"}

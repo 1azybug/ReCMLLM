@@ -1,0 +1,16 @@
+{"time":"2025-01-03T18:40:50.702985931+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-03T18:40:50.703013382+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20250103_184050-9r216w76/logs/debug-core.log"}
+{"time":"2025-01-03T18:40:50.817637355+08:00","level":"INFO","msg":"created new stream","id":"9r216w76"}
+{"time":"2025-01-03T18:40:50.817685395+08:00","level":"INFO","msg":"stream: started","id":"9r216w76"}
+{"time":"2025-01-03T18:40:50.817724278+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"9r216w76"}
+{"time":"2025-01-03T18:40:50.817787417+08:00","level":"INFO","msg":"handler: started","stream_id":"9r216w76"}
+{"time":"2025-01-03T18:40:50.817830548+08:00","level":"INFO","msg":"sender: started","stream_id":"9r216w76"}
+{"time":"2025-01-03T18:40:51.31284189+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-03T18:40:59.054265418+08:00","level":"INFO","msg":"stream: closing","id":"9r216w76"}
+{"time":"2025-01-03T18:40:59.054320722+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-03T18:40:59.055146463+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-03T18:41:00.283679799+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-03T18:41:00.902821969+08:00","level":"INFO","msg":"handler: closed","stream_id":"9r216w76"}
+{"time":"2025-01-03T18:41:00.902892762+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9r216w76"}
+{"time":"2025-01-03T18:41:00.902934981+08:00","level":"INFO","msg":"sender: closed","stream_id":"9r216w76"}
+{"time":"2025-01-03T18:41:00.903073962+08:00","level":"INFO","msg":"stream: closed","id":"9r216w76"}

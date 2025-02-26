@@ -1,0 +1,1529 @@
+  0%|                                                                                                                                         | 0/32 [00:00<?, ?it/s]
+data num:1
+keys:dict_keys(['input_ids', 'labels'])
+data num:1
+keys:dict_keys(['input_ids', 'labels'])
+data num:1
+keys:dict_keys(['input_ids', 'labels'])
+data num:1
+keys:dict_keys(['input_ids', 'labels'])
+data num:1
+keys:dict_keys(['input_ids', 'labels'])
+----------------------------------------------------------------------------------------------------
+seg_id:0/8
+forward device:cuda:0
+token_type:tensor([2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6], device='cuda:0')
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+q_cos:torch.Size([1, 578, 64]),q_sin:torch.Size([1, 578, 64])
+k_cos:torch.Size([1, 578, 64]),k_sin:torch.Size([1, 578, 64])
+query_states:torch.Size([1, 578, 32, 64])
+key_states:torch.Size([1, 578, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 578, 4, 64])
+1 key_states:torch.Size([1, 578, 32, 64])
+----------------------------------------------------------------------------------------------------
+seg_id:1/8
+forward device:cuda:0
+token_type:tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+       device='cuda:0')
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+q_cos:torch.Size([1, 646, 64]),q_sin:torch.Size([1, 646, 64])
+k_cos:torch.Size([1, 646, 64]),k_sin:torch.Size([1, 646, 64])
+query_states:torch.Size([1, 646, 32, 64])
+key_states:torch.Size([1, 646, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 646, 4, 64])
+1 key_states:torch.Size([1, 646, 32, 64])
+----------------------------------------------------------------------------------------------------
+seg_id:2/8
+forward device:cuda:0
+token_type:tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], device='cuda:0')
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+----------------------------------------------------------------------------------------------------
+seg_id:3/8
+forward device:cuda:0
+token_type:tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], device='cuda:0')
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+----------------------------------------------------------------------------------------------------
+seg_id:4/8
+forward device:cuda:0
+token_type:tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], device='cuda:0')
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+----------------------------------------------------------------------------------------------------
+seg_id:5/8
+forward device:cuda:0
+token_type:tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], device='cuda:0')
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+----------------------------------------------------------------------------------------------------
+seg_id:6/8
+forward device:cuda:0
+token_type:tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], device='cuda:0')
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+----------------------------------------------------------------------------------------------------
+seg_id:7/8
+forward device:cuda:0
+token_type:tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
+        6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], device='cuda:0')
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+q_cos:torch.Size([1, 714, 64]),q_sin:torch.Size([1, 714, 64])
+k_cos:torch.Size([1, 782, 64]),k_sin:torch.Size([1, 782, 64])
+query_states:torch.Size([1, 714, 32, 64])
+key_states:torch.Size([1, 782, 4, 64])
+self.num_key_value_groups:8
+0 key_states:torch.Size([1, 782, 4, 64])
+1 key_states:torch.Size([1, 782, 32, 64])
+torch.cat(whole_cmp_hidden, dim=1):torch.Size([1, 4080, 2048])
+loss_kwargs:{'num_items_in_batch': tensor([7165])}
+  File "/mnt/zhaorunsong/repository/ReCMLLM/train.py", line 77, in <module>
+    trainer.train()
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/transformers/trainer.py", line 3579, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/mnt/zhaorunsong/repository/ReCMLLM/train.py", line 37, in compute_loss
+    output = model(inputs=inputs["input_ids"], labels=inputs["labels"], num_items_in_batch=torch.tensor([num_items_in_batch for _ in range(bsz)], dtype=torch.long))
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/accelerate/utils/operations.py", line 822, in forward
+    return model_forward(*args, **kwargs)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/accelerate/utils/operations.py", line 810, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/mnt/zhaorunsong/repository/ReCMLLM/modeling.py", line 575, in forward
+    causal_lm_loss = self.loss_fct(logits=whole_logits, labels=labels, vocab_size=self.model.model.config.vocab_size, **loss_kwargs)
+  File "/mnt/zhaorunsong/repository/ReCMLLM/modeling.py", line 512, in ForCausalLMLoss
+    loss = fixed_cross_entropy(shift_logits, shift_labels, num_items_in_batch, ignore_index, **kwargs)
+  File "/mnt/zhaorunsong/repository/ReCMLLM/modeling.py", line 493, in fixed_cross_entropy
+    loss = loss / num_items_in_batch
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!

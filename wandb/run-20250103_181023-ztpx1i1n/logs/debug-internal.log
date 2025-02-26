@@ -1,0 +1,9 @@
+{"time":"2025-01-03T18:10:23.31223553+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-03T18:10:23.312258554+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20250103_181023-ztpx1i1n/logs/debug-core.log"}
+{"time":"2025-01-03T18:10:23.423278619+08:00","level":"INFO","msg":"created new stream","id":"ztpx1i1n"}
+{"time":"2025-01-03T18:10:23.423324214+08:00","level":"INFO","msg":"stream: started","id":"ztpx1i1n"}
+{"time":"2025-01-03T18:10:23.423376392+08:00","level":"INFO","msg":"handler: started","stream_id":"ztpx1i1n"}
+{"time":"2025-01-03T18:10:23.423384057+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ztpx1i1n"}
+{"time":"2025-01-03T18:10:23.423402582+08:00","level":"INFO","msg":"sender: started","stream_id":"ztpx1i1n"}
+{"time":"2025-01-03T18:10:53.426501639+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-01-03T18:10:59.306629508+08:00","level":"INFO","msg":"stream: closing","id":"ztpx1i1n"}

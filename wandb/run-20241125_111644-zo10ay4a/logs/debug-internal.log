@@ -1,0 +1,16 @@
+{"time":"2024-11-25T11:16:44.69821548+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T11:16:44.698233174+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20241125_111644-zo10ay4a/logs/debug-core.log"}
+{"time":"2024-11-25T11:16:44.813686693+08:00","level":"INFO","msg":"created new stream","id":"zo10ay4a"}
+{"time":"2024-11-25T11:16:44.813741055+08:00","level":"INFO","msg":"stream: started","id":"zo10ay4a"}
+{"time":"2024-11-25T11:16:44.813784025+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"zo10ay4a"}
+{"time":"2024-11-25T11:16:44.813843166+08:00","level":"INFO","msg":"sender: started","stream_id":"zo10ay4a"}
+{"time":"2024-11-25T11:16:44.81381321+08:00","level":"INFO","msg":"handler: started","stream_id":"zo10ay4a"}
+{"time":"2024-11-25T11:16:45.3735009+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T11:16:46.987140632+08:00","level":"INFO","msg":"stream: closing","id":"zo10ay4a"}
+{"time":"2024-11-25T11:16:46.987191798+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T11:16:46.988377475+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T11:16:48.334953545+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T11:16:48.849753102+08:00","level":"INFO","msg":"handler: closed","stream_id":"zo10ay4a"}
+{"time":"2024-11-25T11:16:48.849850495+08:00","level":"INFO","msg":"sender: closed","stream_id":"zo10ay4a"}
+{"time":"2024-11-25T11:16:48.849827362+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zo10ay4a"}
+{"time":"2024-11-25T11:16:48.850008051+08:00","level":"INFO","msg":"stream: closed","id":"zo10ay4a"}

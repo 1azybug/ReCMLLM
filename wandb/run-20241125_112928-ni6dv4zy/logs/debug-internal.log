@@ -1,0 +1,16 @@
+{"time":"2024-11-25T11:29:28.658266568+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T11:29:28.658286115+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20241125_112928-ni6dv4zy/logs/debug-core.log"}
+{"time":"2024-11-25T11:29:28.773770036+08:00","level":"INFO","msg":"created new stream","id":"ni6dv4zy"}
+{"time":"2024-11-25T11:29:28.773824608+08:00","level":"INFO","msg":"stream: started","id":"ni6dv4zy"}
+{"time":"2024-11-25T11:29:28.773891283+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ni6dv4zy"}
+{"time":"2024-11-25T11:29:28.773918344+08:00","level":"INFO","msg":"sender: started","stream_id":"ni6dv4zy"}
+{"time":"2024-11-25T11:29:28.773983787+08:00","level":"INFO","msg":"handler: started","stream_id":"ni6dv4zy"}
+{"time":"2024-11-25T11:29:29.235343549+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T11:29:29.569101601+08:00","level":"INFO","msg":"stream: closing","id":"ni6dv4zy"}
+{"time":"2024-11-25T11:29:29.56915443+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T11:29:29.56983073+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T11:29:31.094823736+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T11:29:31.485210278+08:00","level":"INFO","msg":"handler: closed","stream_id":"ni6dv4zy"}
+{"time":"2024-11-25T11:29:31.485284137+08:00","level":"INFO","msg":"sender: closed","stream_id":"ni6dv4zy"}
+{"time":"2024-11-25T11:29:31.485284718+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ni6dv4zy"}
+{"time":"2024-11-25T11:29:31.485407608+08:00","level":"INFO","msg":"stream: closed","id":"ni6dv4zy"}

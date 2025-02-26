@@ -1,0 +1,16 @@
+{"time":"2024-11-25T11:03:14.454005766+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T11:03:14.454025343+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20241125_110314-ed8bwkl8/logs/debug-core.log"}
+{"time":"2024-11-25T11:03:14.570662382+08:00","level":"INFO","msg":"created new stream","id":"ed8bwkl8"}
+{"time":"2024-11-25T11:03:14.57071457+08:00","level":"INFO","msg":"stream: started","id":"ed8bwkl8"}
+{"time":"2024-11-25T11:03:14.570760536+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ed8bwkl8"}
+{"time":"2024-11-25T11:03:14.570789931+08:00","level":"INFO","msg":"sender: started","stream_id":"ed8bwkl8"}
+{"time":"2024-11-25T11:03:14.570846888+08:00","level":"INFO","msg":"handler: started","stream_id":"ed8bwkl8"}
+{"time":"2024-11-25T11:03:15.054694346+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T11:03:15.338093609+08:00","level":"INFO","msg":"stream: closing","id":"ed8bwkl8"}
+{"time":"2024-11-25T11:03:15.338135708+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T11:03:15.338883081+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T11:03:19.821689029+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T11:03:20.243421165+08:00","level":"INFO","msg":"handler: closed","stream_id":"ed8bwkl8"}
+{"time":"2024-11-25T11:03:20.243480898+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ed8bwkl8"}
+{"time":"2024-11-25T11:03:20.243507728+08:00","level":"INFO","msg":"sender: closed","stream_id":"ed8bwkl8"}
+{"time":"2024-11-25T11:03:20.243569674+08:00","level":"INFO","msg":"stream: closed","id":"ed8bwkl8"}

@@ -1,0 +1,59 @@
+  0%|                                                                                                                            | 0/4 [00:00<?, ?it/s]Traceback (most recent call last):
+data num:8
+keys:dict_keys(['input_ids', 'labels'])
+data num:8
+keys:dict_keys(['input_ids', 'labels'])
+data num:8
+keys:dict_keys(['input_ids', 'labels'])
+data num:8
+keys:dict_keys(['input_ids', 'labels'])
+data num:8
+keys:dict_keys(['input_ids', 'labels'])
+compute_loss inputs:{'input_ids': tensor([[   1, 4911, 1881,  ...,    2,    2,    2],
+        [   1, 4911, 1881,  ...,    2,    2,    2],
+        [   1, 4911, 1881,  ...,    2,    2,    2],
+        ...,
+        [   1, 4911, 1881,  ...,    2,    2,    2],
+        [   1, 4911, 1881,  ...,    2,    2,    2],
+        [   1, 4911, 1881,  ...,    2,    2,    2]], device='cuda:0'), 'labels': tensor([[-100, -100, -100,  ..., -100, -100, -100],
+        [-100, -100, -100,  ..., -100, -100, -100],
+        [-100, -100, -100,  ..., -100, -100, -100],
+        ...,
+        [-100, -100, -100,  ..., -100, -100, -100],
+        [-100, -100, -100,  ..., -100, -100, -100],
+        [-100, -100, -100,  ..., -100, -100, -100]], device='cuda:0')}
+  File "/mnt/zhaorunsong/repository/ReCMLLM/train.py", line 75, in <module>
+    trainer.train()
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/transformers/trainer.py", line 3579, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/mnt/zhaorunsong/repository/ReCMLLM/train.py", line 35, in compute_loss
+    output = model(inputs=inputs["input_ids"], labels=inputs["labels"], num_items_in_batch=num_items_in_batch)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+    inputs, module_kwargs = self.scatter(inputs, kwargs, self.device_ids)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 207, in scatter
+    return scatter_kwargs(inputs, kwargs, device_ids, dim=self.dim)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py", line 89, in scatter_kwargs
+    scattered_kwargs = scatter(kwargs, target_gpus, dim) if kwargs else []
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py", line 75, in scatter
+    res = scatter_map(inputs)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py", line 66, in scatter_map
+    return [type(obj)(i) for i in zip(*map(scatter_map, obj.items()))]
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py", line 62, in scatter_map
+    return list(zip(*map(scatter_map, obj)))
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py", line 58, in scatter_map
+    return Scatter.apply(target_gpus, None, dim, obj)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/parallel/_functions.py", line 104, in forward
+    outputs = comm.scatter(input, target_gpus, chunk_sizes, ctx.dim, streams)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/torch/nn/parallel/comm.py", line 205, in scatter
+    return tuple(torch._C._scatter(tensor, devices, chunk_sizes, dim, streams))
+RuntimeError: chunk expects at least a 1-dimensional tensor

@@ -1,0 +1,16 @@
+{"time":"2024-11-25T11:24:39.102247758+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T11:24:39.102265822+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20241125_112439-hfjup6l6/logs/debug-core.log"}
+{"time":"2024-11-25T11:24:39.217976135+08:00","level":"INFO","msg":"created new stream","id":"hfjup6l6"}
+{"time":"2024-11-25T11:24:39.218055143+08:00","level":"INFO","msg":"stream: started","id":"hfjup6l6"}
+{"time":"2024-11-25T11:24:39.21812833+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"hfjup6l6"}
+{"time":"2024-11-25T11:24:39.218126697+08:00","level":"INFO","msg":"sender: started","stream_id":"hfjup6l6"}
+{"time":"2024-11-25T11:24:39.218177873+08:00","level":"INFO","msg":"handler: started","stream_id":"hfjup6l6"}
+{"time":"2024-11-25T11:24:39.789367213+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T11:24:40.098043503+08:00","level":"INFO","msg":"stream: closing","id":"hfjup6l6"}
+{"time":"2024-11-25T11:24:40.098097524+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T11:24:40.099087462+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T11:24:41.811097824+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T11:24:42.33788632+08:00","level":"INFO","msg":"handler: closed","stream_id":"hfjup6l6"}
+{"time":"2024-11-25T11:24:42.337940843+08:00","level":"INFO","msg":"sender: closed","stream_id":"hfjup6l6"}
+{"time":"2024-11-25T11:24:42.337929561+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hfjup6l6"}
+{"time":"2024-11-25T11:24:42.338036592+08:00","level":"INFO","msg":"stream: closed","id":"hfjup6l6"}

@@ -1,0 +1,12 @@
+  0%|                                                                                                                            | 0/4 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/mnt/zhaorunsong/repository/ReCMLLM/train.py", line 74, in <module>
+    trainer.train()
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/mnt/zhaorunsong/anaconda3/envs/ReCMLLM/lib/python3.10/site-packages/transformers/trainer.py", line 3579, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/mnt/zhaorunsong/repository/ReCMLLM/train.py", line 34, in compute_loss
+    output = model(inputs=inputs["input_ids"], labels=inputs["labels"], num_items_in_batch=num_items_in_batch)
+KeyError: 'input_ids'

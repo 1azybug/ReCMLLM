@@ -1,0 +1,16 @@
+{"time":"2025-01-03T18:50:32.312383551+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-03T18:50:32.312409891+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20250103_185032-ct6e511e/logs/debug-core.log"}
+{"time":"2025-01-03T18:50:32.42570742+08:00","level":"INFO","msg":"created new stream","id":"ct6e511e"}
+{"time":"2025-01-03T18:50:32.425763836+08:00","level":"INFO","msg":"stream: started","id":"ct6e511e"}
+{"time":"2025-01-03T18:50:32.425828658+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ct6e511e"}
+{"time":"2025-01-03T18:50:32.425838617+08:00","level":"INFO","msg":"handler: started","stream_id":"ct6e511e"}
+{"time":"2025-01-03T18:50:32.425889482+08:00","level":"INFO","msg":"sender: started","stream_id":"ct6e511e"}
+{"time":"2025-01-03T18:50:32.87878625+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-03T18:51:12.968400265+08:00","level":"INFO","msg":"stream: closing","id":"ct6e511e"}
+{"time":"2025-01-03T18:51:12.968438096+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-03T18:51:12.969308931+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-03T18:51:14.299935768+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-03T18:51:14.847945792+08:00","level":"INFO","msg":"handler: closed","stream_id":"ct6e511e"}
+{"time":"2025-01-03T18:51:14.848017637+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ct6e511e"}
+{"time":"2025-01-03T18:51:14.848031644+08:00","level":"INFO","msg":"sender: closed","stream_id":"ct6e511e"}
+{"time":"2025-01-03T18:51:14.848143534+08:00","level":"INFO","msg":"stream: closed","id":"ct6e511e"}

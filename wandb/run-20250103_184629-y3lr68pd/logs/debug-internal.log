@@ -1,0 +1,16 @@
+{"time":"2025-01-03T18:46:29.872012372+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-03T18:46:29.872039463+08:00","level":"INFO","msg":"created symlink","path":"/mnt/zhaorunsong/repository/ReCMLLM/wandb/run-20250103_184629-y3lr68pd/logs/debug-core.log"}
+{"time":"2025-01-03T18:46:29.985279586+08:00","level":"INFO","msg":"created new stream","id":"y3lr68pd"}
+{"time":"2025-01-03T18:46:29.985345048+08:00","level":"INFO","msg":"stream: started","id":"y3lr68pd"}
+{"time":"2025-01-03T18:46:29.985414329+08:00","level":"INFO","msg":"sender: started","stream_id":"y3lr68pd"}
+{"time":"2025-01-03T18:46:29.985397437+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"y3lr68pd"}
+{"time":"2025-01-03T18:46:29.985477117+08:00","level":"INFO","msg":"handler: started","stream_id":"y3lr68pd"}
+{"time":"2025-01-03T18:46:30.444995603+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-03T18:46:41.204862038+08:00","level":"INFO","msg":"stream: closing","id":"y3lr68pd"}
+{"time":"2025-01-03T18:46:41.204907112+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-03T18:46:41.205811461+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-03T18:46:44.464279525+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-03T18:46:45.341413567+08:00","level":"INFO","msg":"handler: closed","stream_id":"y3lr68pd"}
+{"time":"2025-01-03T18:46:45.341519336+08:00","level":"INFO","msg":"sender: closed","stream_id":"y3lr68pd"}
+{"time":"2025-01-03T18:46:45.341517523+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"y3lr68pd"}
+{"time":"2025-01-03T18:46:45.341719582+08:00","level":"INFO","msg":"stream: closed","id":"y3lr68pd"}
